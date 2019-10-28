@@ -18,7 +18,8 @@ public class HtmlBlogg extends Blogg {
 	
 	@Override
 	public String toString() {
-		throw new UnsupportedOperationException(TODO.method());
+		return super.toString();
+		//throw new UnsupportedOperationException(TODO.method());
 		
 	}
 }
