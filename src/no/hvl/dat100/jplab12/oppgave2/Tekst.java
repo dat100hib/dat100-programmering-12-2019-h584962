@@ -5,7 +5,7 @@ import no.hvl.dat100.jplab12.common.TODO;
 
 public class Tekst extends Innlegg {
 
-	private String tekst;
+	protected String tekst;
 	
 	public Tekst () {
 		
