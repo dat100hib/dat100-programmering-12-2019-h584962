@@ -27,7 +27,7 @@ public class Bilde extends Tekst {
 
 	@Override
 	public String toString() {
-		return String.format("BILDE\n%s%s\n%s\n", tekst, super.getTekst(), url);
+		return String.format("BILDE\n%s%s\n%s\n", super.superTekst(), tekst, url);
 	}
 
 	// Metoden nedenfor er kun for valgfri oppgave 6
